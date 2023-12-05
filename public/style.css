@@ -4,6 +4,36 @@ html {
     --gris: #6D676E;
     --noir: #1B1B1E;
     --rouge: #96031A;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: var(--jaune);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+li {
+    transition: transform 0.3s;
 
 }
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--jaune);
+}
+li:hover {
+    transform: scale(1.2);
+}
+
+
+
 
